@@ -48,7 +48,9 @@ ON
 	CT.country_code = AB.country_code
 WHERE 
 	AB.country_code IS NULL
-GROUP BY 	CT.continent;
+GROUP BY 
+	CT.continent
+
 
 
 
@@ -70,4 +72,7 @@ ON
 GROUP BY
 	c.continent, cat.category
 ORDER BY
-	c.continent, cat.category;---------------------------------------------------------------------------------------------------------------------------
+	c.continent, cat.category; 
+
+
+-----------------------------------------------------------------------------------------------------------------
